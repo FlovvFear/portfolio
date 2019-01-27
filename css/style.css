@@ -179,19 +179,22 @@ img {
   font-weight: 800;
   margin-top: 10px;
 }
-.about-me_conteiner {
+.about-me {
+  border: 1px solid grey;
+  margin-top: 100px;
+  margin-left: 134px;
   padding-top: 112px;
   padding-bottom: 112px;
   background: url('https://wmpics.pics/di-GCK1UCER.png') no-repeat left top;
-  
 }
+
 .about-me_info {
   margin-top: 0;
   margin-left: auto;
   margin-right: 100px;
   width: 480px;
 }
-h2 {
+.about-me_title {
   font-size: 45px;
   font-weight: 800;
   line-height: 15px;
@@ -292,13 +295,14 @@ h2 {
   }
 }
 @media (max-width: 768px) {
-  .description_small{
-    font-size: 10px;
-  }
   .menu-list {
     display: none;;
   }
   .hero {
+    padding-bottom: 550px;
+    padding-top: 30px;
+  }
+  .about-me {
     padding-bottom: 550px;
     padding-top: 30px;
   }
@@ -309,5 +313,7 @@ h2 {
     width: 95%;
     margin: 30px auto;
   }
+
+
   
 }
